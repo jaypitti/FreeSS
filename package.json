@@ -2,8 +2,8 @@
   "name": "freess",
   "version": "1.0.0",
   "description": "Opinion free css framework. FreeSS focuses on giving you the bare minimum you need to position your elements without having to worry about overriding your styles.",
-  "main": "index.js",
-  "style": "FreeSS.css",
+  "style": "dist/css/freeSS.min.css",
+  "sass": "sass/base.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon -e scss -x 'npm run build",
@@ -21,7 +21,8 @@
     "url": "https://github.com/alocke12992/FreeSS/issues"
   },
   "homepage": "https://github.com/alocke12992/FreeSS#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.11",
     "uglifycss": "0.0.29"
