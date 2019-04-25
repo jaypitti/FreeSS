@@ -1,0 +1,38 @@
+/* footer */
+.footer {
+  background-color: #ccc;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+ /* This line is not needed but centers your text */
+  display: inline-flex;
+  align-items: center;
+}
+.footer-nav{
+  margin:0;
+  padding:20px;
+  text-align:center;
+  justify-content: center;
+  position: relative;
+}
+.footer-nav dl dd{
+  position: relative;
+}
+.footer-nav dl{
+  padding: 0 50px;
+  position: relative;
+  display: inline-block;
+}
+footer span {
+  color: black;
+  position: absolute;
+  left: 20;
+}
+@media (max-width : 320px) {
+  footer span {
+      position: relative;
+      display:block;
+ }
+}

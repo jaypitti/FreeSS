@@ -1,0 +1,36 @@
+/* Card CSS */
+.container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+  .sub-container {
+  border: 1px dotted black;
+  margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .sub-container.big {
+  width: 80%;
+    display: flex;
+  align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .sub-container.small {
+  width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .sub-container div {
+    min-width: 33%;
+    flex: 0;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }

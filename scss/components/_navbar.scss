@@ -1,0 +1,59 @@
+
+/* NAVBAR CSS */
+.burger {
+  position: absolute;
+  display: none;
+}
+.nav-bar{
+  height: 75px;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav-logo-left{
+  position: absolute;
+  left: 10px;
+  max-height: 75px;
+}
+.nav-logo-right{
+  position: absolute;
+  right: 10px;
+  max-height: 75px;
+}
+.nav-logo-center{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-height: 75px;
+}
+.nav-bar.left{
+  list-style:none;
+  margin:0;
+  padding:0 20px;
+  text-align:left;
+}
+.nav-bar.right{
+  list-style:none;
+  margin:0;
+  padding:0 20px;
+  text-align:right;
+}
+.nav-bar li{
+  vertical-align: middle;
+  display:inline;
+  padding: 10px;
+  width: 100px;
+  line-height: 75px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+}
+.nav-bar ul {
+  height: 100%;
+}
+.nav-bar a{
+  display:inline-block;
+}
